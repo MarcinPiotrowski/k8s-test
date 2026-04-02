@@ -16,7 +16,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - image: eldronado/front:0.1
+        - image: eldronado/front:0.1.1
           name: front
           resources: {}
           env:

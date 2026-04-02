@@ -4,7 +4,7 @@ metadata:
   name: my-cluster-ip-service
 spec:
   selector:
-    app: frontend
+    app: backend
   ports:
     - protocol: TCP
       port: 80
